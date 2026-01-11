@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/mac/source/repos/ase-boose-assignment-sushan242833",
+  "source_base_path": "C:/Users/mac/source/repos/ase-boose-assignment-sushan242833/BooseApp",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -11,67 +11,364 @@
       }
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "BooseApp/docs/getting-started.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppArray.yml",
       "output": {
         ".html": {
-          "relative_path": "BooseApp/docs/getting-started.html"
+          "relative_path": "api/BooseApp.AppArray.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppArray",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppArray.yml\" sourcestartlinenumber=\"1\">Represents an internal array utility or data structure.</p>\n"
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "BooseApp/docs/introduction.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppBoolean.yml",
       "output": {
         ".html": {
-          "relative_path": "BooseApp/docs/introduction.html"
+          "relative_path": "api/BooseApp.AppBoolean.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppBoolean",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppBoolean.yml\" sourcestartlinenumber=\"1\">Represents a boolean variable command with evaluation support.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppCall.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppCall",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppCall.yml\" sourcestartlinenumber=\"1\">Wraps BOOSE Call command to inject runtime parameter scopes for method calls.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Canvas for drawing shapes and lines on a Panel.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppCircle",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppCircle.yml\" sourcestartlinenumber=\"1\">Command to draw a circle outline using the application canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory for BOOSE commands, mapped to our custom implementations (MyIf, MyWhile, etc).\nAlso cleans input command names to avoid invisible BOM issues (e.g. &quot;\uFEFFif&quot;).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppDrawTo",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppDrawTo.yml\" sourcestartlinenumber=\"1\">Command to draw a line from the current position to a new position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppElse",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppElse.yml\" sourcestartlinenumber=\"1\">Represents an internal class used within the assembly.{</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppEnd",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppEnd.yml\" sourcestartlinenumber=\"1\">Represents an end command that closes conditional or loop blocks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppFor",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppFor.yml\" sourcestartlinenumber=\"1\">Implements a for-loop command for the BOOSE stored program.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppIf",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppIf.yml\" sourcestartlinenumber=\"1\">Implements the IF conditional command for the BOOSE program.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppInt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppMethod",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppMethod.yml\" sourcestartlinenumber=\"1\">Wraps BOOSE Method so we can:</p>\n<ol sourcefile=\"api/BooseApp.AppMethod.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/BooseApp.AppMethod.yml\" sourcestartlinenumber=\"2\">Register parameter names for calls</li>\n<li sourcefile=\"api/BooseApp.AppMethod.yml\" sourcestartlinenumber=\"3\">Ensure the method return variable (method name) exists with the correct type</li>\n</ol>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppMoveTo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppPeek",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppPeek.yml\" sourcestartlinenumber=\"1\">Implements the Peek command to read a value from an array into a target variable.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppPenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppPenColour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppPenColour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppPoke",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppPoke.yml\" sourcestartlinenumber=\"1\">Implements the Poke command to write a value into an array cell.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppReal",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppReal.yml\" sourcestartlinenumber=\"1\">Represents an internal implementation detail and is not intended for direct use in application code.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppRect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppWhile",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppWhile.yml\" sourcestartlinenumber=\"1\">Implements the WHILE conditional command for the BOOSE program.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppWrite",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppWrite.yml\" sourcestartlinenumber=\"1\">Application-specific implementation of the <xref href=\"BOOSE.Write\" data-throw-if-not-resolved=\"false\"></xref> command.\nWhen executed, this command writes the evaluated expression text to the provided canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Form1",
+      "Summary": "<p sourcefile=\"api/BooseApp.Form1.yml\" sourcestartlinenumber=\"1\">Main form for my BOOSE interpreter.\nHandles running BOOSE code, validation, saving/loading,\nand updating the canvas and debug window.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.IEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.IEvaluation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.IEvaluation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Program",
+      "Summary": "<p sourcefile=\"api/BooseApp.Program.yml\" sourcestartlinenumber=\"1\">The main entry point for the BOOSE application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp",
+      "Summary": null
     },
     {
       "type": "Toc",
-      "source_relative_path": "BooseApp/docs/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "BooseApp/docs/toc.html"
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "BooseApp/docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "BooseApp/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "BooseApp/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "BooseApp/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "BooseApp/toc.html"
-        },
-        ".json": {
-          "relative_path": "BooseApp/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "README.md",
-      "output": {
-        ".html": {
-          "relative_path": "README.html"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
