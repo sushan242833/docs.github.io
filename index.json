@@ -1,0 +1,37 @@
+{
+  "BooseApp/docs/getting-started.html": {
+    "href": "BooseApp/docs/getting-started.html",
+    "title": "Getting Started | BooseApp",
+    "summary": "Getting Started"
+  },
+  "BooseApp/docs/introduction.html": {
+    "href": "BooseApp/docs/introduction.html",
+    "title": "Introduction | BooseApp",
+    "summary": "Introduction"
+  },
+  "BooseApp/index.html": {
+    "href": "BooseApp/index.html",
+    "title": "This is the HOMEPAGE. | BooseApp",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "ASE semester 1 2025 Portfolio | BooseApp",
+    "summary": "ASE semester 1 2025 Portfolio Basic Object Orientated Software Engineering (BOOSE). Fill in the fields below. Student Name Sushan Poudel Student ID 77466857 Group 1 Each element is covered in the weekly sessions, using the BOOSE library source code as an example. I will discuss how I implemented the more difficult elements (like the parser, implementing loops etc.) Keep your progress up to date below. Put \"DONE\" after each section, when you have done it. The number in brackets represents the component that each element contributes to. Checkpoint 1 Version Control (1) At least two documented commits to provided on GitHub Classroom 8th Dec. DONE At least 5 documented commits. DONE Readme.md file filled in correctly. DONE 2 Unit Tests for basic drawing commands above (1) Unit Test for moveto command (variables storing pen position are correct) Unit Test for drawTo command (variables storing pen position are correct) Unit Test for a multiline program. 3 XML Comments/documentation produced (1) Fully documented with XML comments and Documentation web site produced 4 Exception Handling (1) 5 Library (DLL) installed and working with reasonable user interface (2) Form interface with program window, output window and run button DONE BOOSE DLL library installed DONE call about method and display returned information in output/debug window DONE you can use System.Diagnostics to output to the debug window DONE 6 Basic drawing commands of the library are implemented (2) Moveto, circle, rect, pencolour, write. Unrestricted drawing programs can be run (1unrestrictedDrawing.boose) You MUST fill in the this form before submission and submit your zipped up project to myBeckett Read the hand in instructions on myBeckett carefully to ensure you are submitting everything correctly, as if you don't you may be subject to a penalty. Final Submission 1 Further Version Control (1) You must continue to use VC to a professional standard with frequent and clear commits Your Readme.md must be up to date 2 Use of Interfaces (1) Interfaces to be used for all classes where appropriate 3 Further Unit Testing (1) Tests for full program all of the facilities completed in 5,6 and 7 below It is up to you how design your tests (i.e. one test per facility or one test testing many but they must be clearly documented with XML comments) 4 Design Patterns (1) Use of factory Design Pattern for command creation Use of Singleton Design Pattern Demonstrate the use of another design pattern of your choice (for 5,6 and 7 you can click the links to see the example BOOSE programs that must be run, these are in your Portfolio. You must run the unrestricted programs and replace the image already there with an image of your BOOSE Interpreter running the BOOSE programs. You may show further programs in your portfolio.) 5 Replaced variables (2) * Int Real Array 6 Replaced if, while, for (2) * While For If else 7 Replaced Methods (2) * 8 Additional (web version, text-based version, extension to BOOSE itself, etc, discuss with your tutor) (2) * You must rewrite the functionality and not try and \"hack the system\". I've tried to make it so you can't but who knows, either way, you've been told. You MUST fill in this form whilst recording your YouTube Video AND submit it to myBeckett Read the hand in instructions on myBeckett carefully to ensure you are submitting everything correctly, as if you don't you may be subject to a penalty. Links These are for convinience. Check on myBeckett in the Assessment directory for any up to date links. BOOSE Documentation BOOSE DLL Download Assignment Specification - including all university details Detailed Assignment Information - with marking scheme Assignment Help Videos Remember that BOOSE.DLL maybe updated, as it may have bugs in it, or new features may be added. Keep updated on Discord and make sure you always have the latest version in your project. V1.0"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | BooseApp",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | BooseApp",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | BooseApp",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
