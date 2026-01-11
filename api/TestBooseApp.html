@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Getting Started | booseAppDocs </title>
+      <title>Namespace TestBooseApp | booseAppDocs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Getting Started | booseAppDocs ">
+      <meta name="title" content="Namespace TestBooseApp | booseAppDocs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-sushan242833/blob/main/BooseApp/docs/getting-started.md/#L1">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,7 +39,7 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -84,49 +84,84 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+        <article data-uid="TestBooseApp">
 
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>Visual Studio (recommended) with .NET desktop workload</li>
-<li>.NET SDK installed (matching the project target)</li>
-</ul>
-<h2 id="run-the-application">Run the application</h2>
-<ol>
-<li>Open the solution file:
-<ul>
-<li><code>BooseApp/BooseApp.sln</code></li>
-</ul>
-</li>
-<li>Set <strong>BooseApp</strong> as the startup project.</li>
-<li>Run the program.</li>
-<li>Enter BOOSE commands in the code input area and click Run.</li>
-</ol>
-<h2 id="run-the-tests">Run the tests</h2>
-<ol>
-<li>Open <strong>Test Explorer</strong> in Visual Studio.</li>
-<li>Run all tests in the <strong>TestBooseApp</strong> project.</li>
-</ol>
-<p>If only <code>Test1.cs</code> runs, check:</p>
-<ul>
-<li>Test files must have <code>[TestClass]</code> on the class</li>
-<li>Test methods must have <code>[TestMethod]</code></li>
-<li>The project must reference MSTest packages correctly</li>
-<li>The files must be included in the <code>.csproj</code> and not excluded</li>
-</ul>
-<h2 id="generate-the-documentation-site-docfx">Generate the documentation site (DocFX)</h2>
-<p>From the <strong>BooseApp</strong> folder (the one containing <code>docfx.json</code>):</p>
-<pre><code class="lang-bash">docfx build
-</code></pre>
+  <h1 id="TestBooseApp" data-uid="TestBooseApp" class="text-break">Namespace TestBooseApp</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.AllFacilitiesTests.html">AllFacilitiesTests</a></dt>
+      <dd><p>Compact integration test covering:
+int, real, array, poke, peek, if/else/end, while, for.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.ArrayPeekPokeTests.html">ArrayPeekPokeTests</a></dt>
+      <dd><p>Facility test: array declaration + poke + peek.
+Covers final submission requirements for &quot;array&quot;, &quot;poke&quot;, and &quot;peek&quot;.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.Basic_test_sushan.html">Basic_test_sushan</a></dt>
+      <dd><p>Unit tests for AppCanvas basic drawing operations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.BooleanTests.html">BooleanTests</a></dt>
+      <dd><p>Unit tests for the BOOSE <code>boolean</code> facility.
+These tests verify that boolean variables can be declared and used to control flow.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.FakePanel.html">FakePanel</a></dt>
+      <dd><p>A lightweight panel used only for testing AppCanvas.
+Prevents WinForms errors by creating a valid control handle.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.ForTests.html">ForTests</a></dt>
+      <dd><p>Facility test: for loop.
+Verifies that the loop executes the expected number of times.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.IfElseTests.html">IfElseTests</a></dt>
+      <dd><p>Facility tests: if / else / end.
+Uses a boolean variable as the condition to avoid unsupported operators like &quot;==&quot;.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.IntTests.html">IntTests</a></dt>
+      <dd><p>Facility test: int declaration with inline assignment expression.
+(Your interpreter assigns via &quot;int x = expr&quot;, not &quot;x = expr&quot;.)</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.RealTests.html">RealTests</a></dt>
+      <dd><p>Facility test: real declaration with inline assignment expression.
+Covers final submission requirement for &quot;real&quot;.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="TestBooseApp.WhileTests.html">WhileTests</a></dt>
+      <dd><p>Facility test: while loop.
+This test validates that a while loop program parses/compiles successfully.
+Runtime looping currently triggers BOOSE boolean variable limits in the evaluator,
+so this test focuses on compilation (facility presence) rather than loop execution count.</p>
+</dd>
+    </dl>
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-sushan242833/blob/main/BooseApp/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
-        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
       </div>
 

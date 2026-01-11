@@ -361,6 +361,188 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CanvasTests.UnitTestCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CanvasTests.UnitTestCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CanvasTests.UnitTestCanvas",
+      "Summary": "<p sourcefile=\"api/CanvasTests.UnitTestCanvas.yml\" sourcestartlinenumber=\"1\">Unit tests for <xref href=\"BooseApp.AppCanvas\" data-throw-if-not-resolved=\"false\"></xref> drawing operations and BOOSE program execution\nagainst a lightweight in-memory <xref href=\"System.Windows.Forms.Panel\" data-throw-if-not-resolved=\"false\"></xref> surface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CanvasTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.AllFacilitiesTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.AllFacilitiesTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.AllFacilitiesTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.AllFacilitiesTests.yml\" sourcestartlinenumber=\"1\">Compact integration test covering:\nint, real, array, poke, peek, if/else/end, while, for.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.ArrayPeekPokeTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.ArrayPeekPokeTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.ArrayPeekPokeTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.ArrayPeekPokeTests.yml\" sourcestartlinenumber=\"1\">Facility test: array declaration + poke + peek.\nCovers final submission requirements for &quot;array&quot;, &quot;poke&quot;, and &quot;peek&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.Basic_test_sushan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.Basic_test_sushan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.Basic_test_sushan",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.Basic_test_sushan.yml\" sourcestartlinenumber=\"1\">Unit tests for AppCanvas basic drawing operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.BooleanTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.BooleanTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.BooleanTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.BooleanTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the BOOSE <code>boolean</code> facility.\nThese tests verify that boolean variables can be declared and used to control flow.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.FakePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.FakePanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.FakePanel",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.FakePanel.yml\" sourcestartlinenumber=\"1\">A lightweight panel used only for testing AppCanvas.\nPrevents WinForms errors by creating a valid control handle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.ForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.ForTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.ForTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.ForTests.yml\" sourcestartlinenumber=\"1\">Facility test: for loop.\nVerifies that the loop executes the expected number of times.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.IfElseTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.IfElseTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.IfElseTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.IfElseTests.yml\" sourcestartlinenumber=\"1\">Facility tests: if / else / end.\nUses a boolean variable as the condition to avoid unsupported operators like &quot;==&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.IntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.IntTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.IntTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.IntTests.yml\" sourcestartlinenumber=\"1\">Facility test: int declaration with inline assignment expression.\n(Your interpreter assigns via &quot;int x = expr&quot;, not &quot;x = expr&quot;.)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.RealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.RealTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.RealTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.RealTests.yml\" sourcestartlinenumber=\"1\">Facility test: real declaration with inline assignment expression.\nCovers final submission requirement for &quot;real&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.WhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.WhileTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp.WhileTests",
+      "Summary": "<p sourcefile=\"api/TestBooseApp.WhileTests.yml\" sourcestartlinenumber=\"1\">Facility test: while loop.\nThis test validates that a while loop program parses/compiles successfully.\nRuntime looping currently triggers BOOSE boolean variable limits in the evaluator,\nso this test focuses on compilation (facility presence) rather than loop execution count.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestBooseApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestBooseApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestBooseApp",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
